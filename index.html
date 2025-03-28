@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+</head>
+<body bgcolor="lightblue">
+
+    <img src="stor.jpg" width="300" height="200" alt="Description of image">
+    <h2>BookStore Project</h2>
+    <p id="demo">Welcome in my project</p>
+
+    <label for="bookIdText">Book Id</label>
+    <input type="text" id="bookIdText" value="Enter the book id"><br>
+    
+    <label for="bookNameText">Book Name</label>
+    <input type="text" id="bookNameText" value="Enter the book Name"><br>
+    
+    <label for="bookAuthorText">Book Author</label>
+    <input type="text" id="bookAuthorText" value="Enter the book Author"><br>
+    
+    <label for="bookPriceText">Book Price</label>
+    <input type="text" id="bookPriceText" value="Enter the book Price"><br>
+    
+    <label for="bookQuantityText">Book Quantity</label>
+    <input type="text" id="bookQuantityText" value="Enter the book Quantity"><br>
+    
+    <button type="button" onclick="showBook()">Show Book</button>
+    <button type="button" onclick="window.print()">Print this page</button>
+    <button type="button" onclick="hideBook()">Hide Book</button>
+    <button type="button" onclick="addBook()">Add Book</button>
+    <button type="button" onclick="deleteBook()">Delete Last Book</button><br>
+    
+    <button type="button" onclick="queryId()">Query Through Id</button>
+    <button type="button" onclick="queryName()">Query Through Name</button>
+    <button type="button" onclick="queryAuthor()">Query Through Author</button>
+    <button type="button" onclick="invoice()">Invoice</button>
+    
+
+    <!-- Linking JavaScript File -->
+    <script src="main.js"></script>
+
+</body>
+</html>
